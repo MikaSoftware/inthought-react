@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 class ServerError500 extends React.Component {
   render() {
     return (
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6 mx-auto p-4">
-                  <h3 class="text-center text-secondary mb-3">
-                  <i class="fa fa-wrench fa-5x"></i>
+      <div className="container">
+          <div className="row">
+              <div className="col-sm-6 mx-auto p-4">
+                  <h3 className="text-center text-secondary mb-3">
+                  <i className="fa fa-wrench fa-5x"></i>
                   </h3>
-                  <h1 class="text-center display-2 text-secondary mb-3">500</h1>
-                  <h2 class="text-center text-secondary mb-3">Server Error!</h2>
-                  <p class="text-center text-secondary lead mb-4">
+                  <h1 className="text-center display-2 text-secondary mb-3">500</h1>
+                  <h2 className="text-center text-secondary mb-3">Server Error!</h2>
+                  <p className="text-center text-secondary lead mb-4">
                   Unfortunately we are having trouble loading the page your are looking for. You can return to your 
                     <Link to="http://inthought.pw/dashboard/">dashboard</Link>
                     . For immediate help, contact 
@@ -28,8 +28,8 @@ class ServerError500 extends React.Component {
                   </h4>
                   <br/>
                   <br/>
-                  <p class="text-center">
-                  <Link class="btn btn-primary btn-lg" to="http://inthought.pw/dashboard">
+                  <p className="text-center">
+                  <Link className="btn btn-primary btn-lg" to="http://inthought.pw/dashboard">
                   Back to Dashboard
                   </Link>
                   </p>

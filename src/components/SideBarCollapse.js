@@ -45,6 +45,28 @@ class SideBarCollapse extends React.Component {
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/Buttons">Buttons</NavLink>
                 </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/Cards">Cards</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/Tables">Tables</NavLink>
+                </li>
+            </ul>
+            <hr className="nav-divider" />
+            <ul className="nav flex-column">
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="http://inthought.pw/settings/"><i className="fa fa-cog"></i> Settings</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="http://inthought.pw/profile/"><i className="fa fa-address-card"></i>
+                        Profile</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="http://inthought.pw/help/"><i className="fa fa-question-circle"></i> Help</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="#"><i className="fas fa-sign-out-alt"></i> Logout</NavLink>
+                </li>
             </ul>
         </nav>
     </div>            

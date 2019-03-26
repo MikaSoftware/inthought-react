@@ -31,6 +31,8 @@ import NotFound404 from './components/NotFound404'
 import ServerError500 from './components/ServerError505';
 import Icons from './components/Icons';
 import Buttons from './components/Buttons';
+import Cards from './components/Cards';
+import Tables from './components/Tables';
 
 const routing = (
   <Router>
@@ -51,7 +53,9 @@ const routing = (
         <Route path="/NotFound404" component={NotFound404} />
         <Route path="/ServerError500" component={ServerError500} />
         <Route path="/Icons" component={Icons} />
-        <Route path="/Buttons" component={Buttons} />        
+        <Route path="/Buttons" component={Buttons} />
+        <Route path="/Cards" component={Cards} />
+        <Route path="/Tables" component={Tables} />
 
         <Route component={NotFound404} />
       </Switch>

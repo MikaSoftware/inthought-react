@@ -574,8 +574,13 @@ table.custom-cell-w tr th{width:35% !important;}
     	border-color: #bd2130;
 }
 
+/* style guide */
+
+#root {
+  padding: 10px 40px 40px;
+}
 .buttons-card {
-  margin: 40px 30px;
+  margin: 40px 0px;
 }
 
 .buttons-card button,
@@ -586,10 +591,22 @@ table.custom-cell-w tr th{width:35% !important;}
 .buttons-card h4,
 .buttons-card h5,
 .buttons-card h6 {
-  margin: 5px;
+    margin: 5px;
 }
 
-
 .buttons-card .btn-group button {
-  margin: 5px 0px;
+    margin: 5px 0px;
+}
+
+.icon-group {
+    margin: 40px 0px;
+}
+
+.icon-group span {
+    margin-left:15px;
+}
+
+.icons-size {
+  display: flex;
+  align-items: flex-end;
 }
