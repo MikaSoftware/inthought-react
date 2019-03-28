@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 class LoginPage extends React.Component {
   render() {
     return (
@@ -44,8 +45,8 @@ class LoginPage extends React.Component {
                         </div>
 
                         <input type="submit" value="Sign In" className="btn btn-lg btn-primary btn-block" />
-                        <h5 className="text-center mt-3 mb-3"><a href="lostpassword.html" className="text-primary plain-link">Forgot
-                            Password?</a></h5>
+                        <h5 className="text-center mt-3 mb-3"><Link to="#" className="text-primary plain-link">Forgot
+                            Password?</Link></h5>
 
                     </form>
                 </div>

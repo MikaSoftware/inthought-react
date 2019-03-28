@@ -6,7 +6,7 @@ class SideBarCollapse extends React.Component {
     return (
     <div>
         <header className="navbar navbar-dark fixed-top bg-dark justify-content-between">
-            <Link className="navbar-brand" to="">Over55</Link>
+            <Link className="navbar-brand" to="#">Over55</Link>
             <button className="navbar-toggler" type="button" id="sidebarCollapse">
                 <i className="fa fa-bars"></i>
             </button>
@@ -48,24 +48,52 @@ class SideBarCollapse extends React.Component {
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/Cards">Cards</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="/Tables">Tables</NavLink>
+                <li className="nav-item dropdown-btn">
+                    <Link className="nav-link" to="#">Tables <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                    <ul>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/Table1">Table 1</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/Table2">Table 2</NavLink>
+                        </li>
+                    </ul>
                 </li>
-            </ul>
-            <hr className="nav-divider" />
-            <ul className="nav flex-column">
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="http://inthought.pw/settings/"><i className="fa fa-cog"></i> Settings</NavLink>
+                <li className="nav-item dropdown-btn">
+                    <Link className="nav-link" to="#">Forms <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                    <ul>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/FormElements">Form elements</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/FormValidations">Form validations</NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="http://inthought.pw/profile/"><i className="fa fa-address-card"></i>
-                        Profile</NavLink>
+                    <NavLink className="nav-link" to="/ListPage">List Page</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="http://inthought.pw/help/"><i className="fa fa-question-circle"></i> Help</NavLink>
+                <li className="nav-item dropdown-btn">
+                    <Link className="nav-link" to="#">Details Page <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                    <ul>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/DetailsPage1">Details 1</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/DetailsPage2">Detail 2</NavLink>
+                        </li>
+                    </ul>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="#"><i className="fas fa-sign-out-alt"></i> Logout</NavLink>
+                <li className="nav-item dropdown-btn">
+                    <Link className="nav-link" to="#">Pages <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                    <ul>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/CommentsPage">Comments Page</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/SearchPage">Search Page</NavLink>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

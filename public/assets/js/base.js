@@ -9,6 +9,12 @@ $(document).ready(function () {
 	    $('#sidebar,#main,#sidebarCollapse,#return-to-top,body').toggleClass('active');
 	        
 	});
+
+	$('.nav-item.dropdown-btn > a').click(function(){
+		$(this).find('.fa-caret-down').toggle();
+		$(this).find('.fa-caret-right').toggle();
+		$(this).parent().find('ul').toggle();
+	});
 	    
         // ===== Scroll to Top ==== 
 	$(window).scroll(function() {

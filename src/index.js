@@ -32,7 +32,15 @@ import ServerError500 from './components/ServerError505';
 import Icons from './components/Icons';
 import Buttons from './components/Buttons';
 import Cards from './components/Cards';
-import Tables from './components/Tables';
+import FormElements from './components/FormElements';
+import FormValidations from './components/FormValidations';
+import Table1 from './components/Table1';
+import Table2 from './components/Table2';
+import ListPage from './components/ListPage';
+import DetailsPage1 from './components/DetailsPage1';
+import DetailsPage2 from './components/DetailsPage2';
+import CommentsPage from './components/CommentsPage';
+import SearchPage from './components/SearchPage';
 
 const routing = (
   <Router>
@@ -55,7 +63,16 @@ const routing = (
         <Route path="/Icons" component={Icons} />
         <Route path="/Buttons" component={Buttons} />
         <Route path="/Cards" component={Cards} />
-        <Route path="/Tables" component={Tables} />
+        <Route path="/FormElements" component={FormElements} />
+        <Route path="/FormValidations" component={FormValidations} />
+        <Route path="/Table1" component={Table1} />
+        <Route path="/Table2" component={Table2} />
+        <Route path="/ListPage" component={ListPage} />
+        <Route path="/DetailsPage1" component={DetailsPage1} />
+        <Route path="/DetailsPage2" component={DetailsPage2} />
+        
+        <Route path="/CommentsPage" component={CommentsPage} />
+        <Route path="/SearchPage" component={SearchPage} />
 
         <Route component={NotFound404} />
       </Switch>

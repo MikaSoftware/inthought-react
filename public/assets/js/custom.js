@@ -1,17 +1,28 @@
 $(document).ready(function () {
-
 	// ===== Advance search form ====
 	$('#advance_search_btn').on('click', function () {
-	    $('#adv-search').show();
+	    // $('#adv-search').show();
+	    // $('#advance_search_btn_x').show();
+	    // $('#advance_search_btn').hide();
+	});
+	$('#advance_search_btn_x').on('click', function () {
+	    // $('#adv-search').hide();
+	    // $('#advance_search_btn_x').hide();
+	    // $('#advance_search_btn').show();
+	});
+	
+	$(document).on("click", "#advance_search_btn" , function() {
+		$('#adv-search').show();
 	    $('#advance_search_btn_x').show();
 	    $('#advance_search_btn').hide();
 	});
-	$('#advance_search_btn_x').on('click', function () {
+
+	$(document).on("click", "#advance_search_btn_x" , function() {
 	    $('#adv-search').hide();
 	    $('#advance_search_btn_x').hide();
 	    $('#advance_search_btn').show();
 	});
-	
+
 	// ===== Residential and Commercial forms toggle ====
 	$('#residential').on('click', function () {
 	    $('#commercial-form').hide();

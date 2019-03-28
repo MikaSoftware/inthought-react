@@ -610,3 +610,38 @@ table.custom-cell-w tr th{width:35% !important;}
   display: flex;
   align-items: flex-end;
 }
+
+.dropdown-btn a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-btn > ul {
+  display: none;
+  list-style: none;
+  padding-left:0px;
+}
+
+.dropdown-btn > ul > li.nav-item > a {
+  padding: .5rem 1rem;
+  display: block;
+  padding-left: 36px;
+}
+
+.dropdown-btn > ul > li.nav-item > a.active {
+  
+  background: #17a2b8;
+}
+
+.nav-item.dropdown-btn > a > .fa-caret-down {
+  display: none;
+}
+
+.nav-item.dropdown-btn > a > .fa-caret-right {
+  display: inline;
+}
+
+#form_validations_errors #all-errors {
+  display: 
+}
+/* nav-item dropdown-btn nav-link */

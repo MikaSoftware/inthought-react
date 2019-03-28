@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 class ResetPage extends React.Component {
   render() {
     return (
@@ -40,7 +41,7 @@ class ResetPage extends React.Component {
                             </div>
                         </div>
                         <input type="submit" value="Reset Password and Sign In" className="btn btn-lg btn-primary btn-block" />
-                        <h5 className="text-center mt-3 mb-3"><a href="./" className="text-primary plain-link">Cancel</a></h5>
+                        <h5 className="text-center mt-3 mb-3"><Link to="#" className="text-primary plain-link">Cancel</Link></h5>
                     </form>
                 </div>
             </div>

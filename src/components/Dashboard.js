@@ -11,7 +11,7 @@ class Dashboard extends React.Component {
                     <section className="row text-center placeholders">
                         <div className="col-sm-3 placeholder">
                             <div className="rounded-circle mx-auto mt-4 mb-4 circle-200 bg-pink">
-                                <Link to="http://inthought.pw/clients/" className="d-block link-ndecor" title="Clients">
+                                <Link to="#" className="d-block link-ndecor" title="Clients">
                                     <h1 className="circle-title">1,100</h1>
                                 </Link>
                             </div>
@@ -20,7 +20,7 @@ class Dashboard extends React.Component {
                         </div>
                         <div className="col-sm-3 placeholder">
                             <div className="rounded-circle mx-auto mt-4 mb-4 circle-200 bg-dgreen">
-                                <Link to="http://inthought.pw/jobs/" className="d-block link-ndecor" title="Jobs">
+                                <Link to="#" className="d-block link-ndecor" title="Jobs">
                                     <h1 className="circle-title">10,000</h1>
                                 </Link>
                             </div>
@@ -29,7 +29,7 @@ class Dashboard extends React.Component {
                         </div>
                         <div className="col-sm-3 placeholder">
                             <div className="rounded-circle mx-auto mt-4 mb-4 circle-200 bg-dblue">
-                                <Link to="http://inthought.pw/members/" className="d-block link-ndecor" title="Members">
+                                <Link to="#" className="d-block link-ndecor" title="Members">
                                     <h1 className="circle-title">2,200</h1>
                                 </Link>
                             </div>
@@ -38,7 +38,7 @@ class Dashboard extends React.Component {
                         </div>
                         <div className="col-sm-3 placeholder">
                             <div className="rounded-circle mx-auto mt-4 mb-4 circle-200 bg-orange">
-                                <Link to="http://inthought.pw/tasks/" className="d-block link-ndecor" title="Tasks">
+                                <Link to="#" className="d-block link-ndecor" title="Tasks">
                                     <h1 className="circle-title">12</h1>
                                 </Link>
                             </div>
@@ -55,11 +55,11 @@ class Dashboard extends React.Component {
                         <p>It uses utility classes for typography and spacing to space content out within the larger
                             container.</p>
                         <p className="lead">
-                            <Link className="btn btn-primary btn-lg" to="">Learn more</Link>
+                            <Link className="btn btn-primary btn-lg" to="#">Learn more</Link>
                         </p>
                     </div>
 
-                    <Link id="return-to-top" to="" className="btn-primary btn-lg back-to-top" title="Back to top"><i
+                    <Link id="return-to-top" to="#" className="btn-primary btn-lg back-to-top" title="Back to top"><i
                             className="fas fa-angle-up fa-2x"></i></Link>
 
                 </main>

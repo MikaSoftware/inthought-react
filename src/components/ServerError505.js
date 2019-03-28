@@ -13,23 +13,23 @@ class ServerError500 extends React.Component {
                   <h2 className="text-center text-secondary mb-3">Server Error!</h2>
                   <p className="text-center text-secondary lead mb-4">
                   Unfortunately we are having trouble loading the page your are looking for. You can return to your 
-                    <Link to="http://inthought.pw/dashboard/">dashboard</Link>
+                    <Link to="#">dashboard</Link>
                     . For immediate help, contact 
-                    <Link to="http://inthought.pw/support.html">support.</Link>
+                    <Link to="#">support.</Link>
                   </p>
                   <br/>
                   <h4>
                     Phone: 
-                    <Link to="tel:+15194381111">(519)438-1111</Link>
+                    <Link to="#">(519)438-1111</Link>
                   </h4>
                   <h4>
                     E-Mail: 
-                    <Link to="mailto:support@o55.ca">support@o55.ca</Link>
+                    <Link to="#">support@o55.ca</Link>
                   </h4>
                   <br/>
                   <br/>
                   <p className="text-center">
-                  <Link className="btn btn-primary btn-lg" to="http://inthought.pw/dashboard">
+                  <Link className="btn btn-primary btn-lg" to="#">
                   Back to Dashboard
                   </Link>
                   </p>

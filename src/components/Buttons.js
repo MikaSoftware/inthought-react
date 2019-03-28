@@ -50,15 +50,15 @@ class Buttons extends React.Component {
                 <h3>Button Labeled</h3>
                 <div className="buttons-group">
                     <div>
-                        <Link className="btn btn-primary btn-lg" to="" role="button">
+                        <Link className="btn btn-primary btn-lg" to="#" role="button">
                             <i className="fas fa-arrow-left"></i>
                             Back to Clients Home
                         </Link>
-                        <Link className="btn btn-danger btn-lg" to="" role="button">
+                        <Link className="btn btn-danger btn-lg" to="#" role="button">
                             <i className="fas fa-plus"></i>
                             Add New
                         </Link>
-                        <Link to="" className="btn btn-success btn-lg" type="button">
+                        <Link to="#" className="btn btn-success btn-lg" type="button">
                             View 
                             <i className="fas fa-arrow-circle-right"></i>
                         </Link>
@@ -109,39 +109,39 @@ class Buttons extends React.Component {
                 <h3>Round buttons</h3>
                 <section className="row text-center placeholders">
                     <div className="rounded-circle circle-200 bg-pink text-center">
-                        <Link to="" className="d-block link-ndecor" title="Add Client">
+                        <Link to="#" className="d-block link-ndecor" title="Add Client">
                             <span className="r-circle"><i className="fas fa-plus fa-3x"></i></span>
                         </Link>
                     </div>
                     <div className="rounded-circle circle-150 bg-dgreen text-center">
-                        <Link to="" className="d-block link-ndecor" title="Search Clients">
+                        <Link to="#" className="d-block link-ndecor" title="Search Clients">
                             <span className="r-circle"><i className="fas fa-search fa-2x"></i></span>
                         </Link>
                     </div>
                     <div className="rounded-circle circle-100 bg-dblue text-center">
-                        <Link to="" className="d-block link-ndecor" title="View Clients">
+                        <Link to="#" className="d-block link-ndecor" title="View Clients">
                             <span className="r-circle"><i className="fas fa-list-alt fa-1x"></i></span>
                         </Link>
                     </div>
                 </section>
                 <section className="row text-center placeholders">
                     <div className="rounded-circle circle-200 bg-pink text-center">
-                        <Link to="" className="d-block link-ndecor" title="Clients">
+                        <Link to="#" className="d-block link-ndecor" title="Clients">
                             <span className="circle-title">1,100</span>
                         </Link>
                     </div>
                     <div className="rounded-circle circle-150 bg-dgreen text-center">
-                        <Link to="" className="d-block link-ndecor" title="Jobs">
+                        <Link to="#" className="d-block link-ndecor" title="Jobs">
                             <span className="circle-title">10,000</span>
                         </Link>
                     </div>
                     <div className="rounded-circle circle-100 bg-dblue text-center">
-                        <Link to="" className="d-block link-ndecor" title="Members">
+                        <Link to="#" className="d-block link-ndecor" title="Members">
                             <span className="circle-title">2,200</span>
                         </Link>
                     </div>
                     <div className="rounded-circle circle-50 bg-orange text-center">
-                        <Link to="" className="d-block link-ndecor" title="Tasks">
+                        <Link to="#" className="d-block link-ndecor" title="Tasks">
                             <span className="circle-title">12</span>
                         </Link>
                     </div>

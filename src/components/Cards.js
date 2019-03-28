@@ -31,7 +31,7 @@ class Cards extends React.Component {
                 <div className="card bg-light">
                     <div className="card-body">
                         <h5 className="card-title">
-                            <Link to="">
+                            <Link to="#">
                                 <strong>Rodolfo Martinez</strong>
                             </Link>
                         </h5>
@@ -51,7 +51,7 @@ class Cards extends React.Component {
                     <div className="card-body">
                         <h3 className="card-title">Residential</h3>
                         <p className="card-text">Add a Residential Client</p>
-                        <Link to="" className="btn btn-success btn-lg">
+                        <Link to="#" className="btn btn-success btn-lg">
                             Go 
                             <i className="fas fa-arrow-circle-right"></i>
                         </Link>
