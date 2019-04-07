@@ -41,6 +41,7 @@ import DetailsPage1 from './components/DetailsPage1';
 import DetailsPage2 from './components/DetailsPage2';
 import CommentsPage from './components/CommentsPage';
 import SearchPage from './components/SearchPage';
+import Invoice from './components/Invoice';
 
 const routing = (
   <Router>
@@ -73,6 +74,8 @@ const routing = (
         
         <Route path="/CommentsPage" component={CommentsPage} />
         <Route path="/SearchPage" component={SearchPage} />
+
+        <Route path="/Invoice" component={Invoice} />
 
         <Route component={NotFound404} />
       </Switch>
