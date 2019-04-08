@@ -100,7 +100,7 @@ class Forms extends React.Component {
                         </div>
                         <div className="form-group p-0 col-md-7 mb-4">
                             <label htmlFor="dob">Date of Birth</label>
-                            <div className="input-group input-group-lg">
+                            <div className="input-group input-group-lg date-picker-group">
                                 <DatePicker
                                     selected={this.state.startDate}
                                     onChange={this.handleChange}

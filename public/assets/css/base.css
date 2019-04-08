@@ -665,3 +665,28 @@ table.custom-cell-w tr th{width:35% !important;}
   cursor: pointer;
   padding: .75rem 1.25rem;
 }
+
+/* .react-datepicker-wrapper input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+} */
+
+.date-picker-group {
+  flex-wrap:nowrap !important;
+}
+
+.date-picker-group .input-group-append {
+  position: absolute;
+
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper > div {
+  width: 100%;
+}
+
+.date-picker-group .input-group-append {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
