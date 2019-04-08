@@ -1,0 +1,23 @@
+import React from 'react'
+
+class SuccessPage extends React.Component {
+  render() {
+    return (
+        <main id="main" role="main">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12 text-center">
+                    <img className="img-fluid" src="../assets/img/over55-logo-600px.png" alt="Logo" width="180px" />
+                </div>
+            </div>
+            <div className="row">
+                    <div className="col-sm-6 mx-auto">
+                        <h2 className="form-signin-heading text-center mb-3">Welcome to the Over55 App!</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+    )
+  }
+}
+export default SuccessPage

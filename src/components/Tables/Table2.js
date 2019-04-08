@@ -5,10 +5,10 @@ class Table2 extends React.Component {
     return (
         <main id="main" role="main">
         <h1>Table 2</h1>
-        <div class="col-sm-12 mx-auto mt-4 pt-4">
+        <div className="col-sm-12 mx-auto mt-4 pt-4">
             <h2>Recent Clients</h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
+            <div className="table-responsive">
+                <table className="table table-striped">
                     <thead>
                     <tr>
                         <th>#</th>
@@ -44,8 +44,8 @@ class Table2 extends React.Component {
                 </table>
             </div>
         </div>
-        <Link id="return-to-top" to="#" class="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
-                class="fas fa-angle-up fa-2x"></i></Link>
+        <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
+                className="fas fa-angle-up fa-2x"></i></Link>
     </main>
     )
   }
