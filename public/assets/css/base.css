@@ -641,7 +641,13 @@ table.custom-cell-w tr th{width:35% !important;}
   display: inline;
 }
 
-#form_validations_errors #all-errors {
+/* #form_validations_errors #all-errors {
   display: 
-}
+} */
+
+
 /* nav-item dropdown-btn nav-link */
+
+.br {
+  border-right: 1px solid rgba(0,0,0,.12);
+}
