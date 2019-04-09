@@ -7,7 +7,13 @@ $(document).ready(function () {
 	$('#sidebarCollapse').on('click', function () {
 		// open or close navbar
 	    $('#sidebar,#main,#sidebarCollapse,#return-to-top,body').toggleClass('active');
-	        
+	});
+
+	$("nav#sidebar ul>li>a.nav-link").click(function() {
+		if($(this).parent().children("ul").length > 0)
+			return;
+			
+		$('#sidebar,#main,#sidebarCollapse,#return-to-top,body').toggleClass('active');
 	});
 
 	$('.nav-item.dropdown-btn > a').click(function(){
