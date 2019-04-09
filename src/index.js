@@ -57,6 +57,7 @@ import Step4 from './components/Wizards/Steps/Step4';
 import Step5 from './components/Wizards/Steps/Step5';
 import Panel from './components/Wizards/Panels/Panel';
 import GoogleMaps from './components/GoogleMaps';
+import Charting from './components/Charting';
 
 const routing = (
   <Router>
@@ -105,6 +106,8 @@ const routing = (
         <Route path="/Panel" component={Panel} />
 
         <Route path="/GoogleMaps" component={GoogleMaps} />
+
+        <Route path="/Charting" component={Charting} />
 
         <Route component={NotFound404} />
       </Switch>
