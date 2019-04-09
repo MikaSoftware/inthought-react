@@ -137,6 +137,9 @@ class SideBarCollapse extends React.Component {
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/GoogleMaps">Google Maps</NavLink>
                 </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/Charting">Charting</NavLink>
+                </li>
             </ul>
         </nav>
     </div>            
