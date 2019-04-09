@@ -13,7 +13,7 @@ $(document).ready(function () {
 	$('.nav-item.dropdown-btn > a').click(function(){
 		$(this).find('.fa-caret-down').toggle();
 		$(this).find('.fa-caret-right').toggle();
-		$(this).parent().find('ul').toggle();
+		$(this).parent().children('ul').toggle();
 	});
 	    
         // ===== Scroll to Top ==== 

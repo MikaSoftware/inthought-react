@@ -21,8 +21,16 @@ class SideBarCollapse extends React.Component {
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/ResetPage">Reset Page</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="/RegisterPage">Regisger Page</NavLink>
+                <li className="nav-item dropdown-btn">
+                    <Link className="nav-link" to="#">Register Page <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                    <ul>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/RegisterPage">Regisger Form</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/SuccessPage">Success Page</NavLink>
+                        </li>
+                    </ul>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/TopMenu">Top Menu</NavLink>
@@ -93,10 +101,38 @@ class SideBarCollapse extends React.Component {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/SearchPage">Search Page</NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/Invoice">Invoice</NavLink>
+                        </li>
                     </ul>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="/Invoice">Invoice</NavLink>
+                <li className="nav-item dropdown-btn">
+                    <Link className="nav-link" to="#">Wizards <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                    <ul>
+                        <li className="nav-item dropdown-btn">
+                            <Link className="nav-link" to="#">Steps <i className="fa fa-caret-down"></i><i className="fa fa-caret-right"></i></Link>
+                            <ul>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Step1">Step1</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Step2">Step2</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Step3">Step3</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Step4">Step4</NavLink>
+                                </li>
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/Step5">Step5</NavLink>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/Panel">Panel</NavLink>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

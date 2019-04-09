@@ -620,16 +620,17 @@ table.custom-cell-w tr th{width:35% !important;}
   display: none;
   list-style: none;
   padding-left:0px;
+  position: relative;
+  left:20px;
 }
 
 .dropdown-btn > ul > li.nav-item > a {
   padding: .5rem 1rem;
   display: block;
-  padding-left: 36px;
+  /* padding-left: 36px; */
 }
 
 .dropdown-btn > ul > li.nav-item > a.active {
-  
   background: #17a2b8;
 }
 
@@ -641,13 +642,51 @@ table.custom-cell-w tr th{width:35% !important;}
   display: inline;
 }
 
-/* #form_validations_errors #all-errors {
-  display: 
-} */
-
-
-/* nav-item dropdown-btn nav-link */
-
 .br {
   border-right: 1px solid rgba(0,0,0,.12);
+}
+
+.accordion .card {
+  margin-bottom: 8px;
+}
+
+.card-header {
+  padding: 0 !important;
+  background-color: white !important;
+  border-bottom: none !important;
+  border-radius: 6px !important;
+}
+.card-header h1,
+.card-header h2,
+.card-header h3,
+.card-header h4,
+.card-header h5,
+.card-header h6 {
+  cursor: pointer;
+  padding: .75rem 1.25rem;
+}
+
+/* .react-datepicker-wrapper input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+} */
+
+.date-picker-group {
+  flex-wrap:nowrap !important;
+}
+
+.date-picker-group .input-group-append {
+  position: absolute;
+
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper > div {
+  width: 100%;
+}
+
+.date-picker-group .input-group-append {
+  position: absolute;
+  right: 0px;
+  height: 100%;
 }
