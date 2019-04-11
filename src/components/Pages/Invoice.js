@@ -123,8 +123,8 @@ class Invoice extends React.Component {
             </div>
             <hr className="d-print-none" />
             <div className="clearfix">
-            <button className="btn btn-info float-left mr-2" type="button">Edit</button>
-            <button className="btn btn-secondary float-left" type="button">Print</button>
+            <button className="btn btn-primary float-left mr-2" type="button">Edit</button>
+            <button className="btn btn-orange float-left" type="button">Print</button>
             <button className="btn btn-success float-right" type="button">Send Invoice</button>
             </div>
             </div>
