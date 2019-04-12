@@ -5,8 +5,49 @@ class SideBarCollapse extends React.Component {
   render() {
     return (
     <div>
-        <header className="navbar navbar-dark fixed-top bg-dark justify-content-between">
+        <header className="top-navbar navbar navbar-dark fixed-top bg-dark justify-content-between">
             <Link className="navbar-brand" to="#">Over55</Link>
+            <ul className="navbar-nav mr-auto flex-row">
+                <li className="nav-item">
+                    <Link to="#" className="nav-link d-lg-block d-xl-block">
+                        <i className="fas fa-bars"></i>
+                    </Link>
+                    <Link to="#" className="nav-link sidebar-toggle d-md-none">
+                        <i className="fas fa-bars"></i>
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="#">
+                        <i className="far fa-user"></i>
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link title="Lock screen" className="nav-link" to="#">
+                        <i className="fas fa-lock"></i>
+                    </Link>
+                </li>
+            </ul>
+            <ul className="navbar-nav flex-row">
+                <li className="nav-item">
+                    <form className="form-inline search-form my-2 my-lg-0">
+                        <input className="form-control search-box mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="nav-link search-button" type="button">
+                            <i className="fas fa-search"></i>
+                        </button>
+                    </form>
+                </li>
+                <li className="nav-item">
+                    <Link className="nav-link" to="#">
+                        <i className="fa fa-inbox"></i>
+                    </Link>
+                </li>
+                <li className="dropdown-list dropdown nav-item">
+                    <Link aria-haspopup="true" to="#" className="dropdown-toggle-nocaret nav-link" aria-expanded="false">
+                        <i className="fa fa-bell"></i>
+                        <span className="badge badge-danger">11</span>
+                    </Link>
+                </li>
+            </ul>
             <button className="navbar-toggler" type="button" id="sidebarCollapse">
                 <i className="fa fa-bars"></i>
             </button>
