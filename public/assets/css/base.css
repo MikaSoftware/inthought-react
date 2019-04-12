@@ -151,9 +151,19 @@ a.plain-link{
     padding-bottom: 1.5rem;
 }
 
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-right: 18px;
+}
+
 .navbar-brand {
     font-size: 1.7rem !important;
 }
+
 .navbar-toggler {
     padding: .45rem 1rem !important;
     font-size: 2rem !important;
@@ -170,6 +180,14 @@ a.plain-link{
 }
 .nav .nav-link.active, .nav .nav-link:hover {
     background: #17a2b8;
+}
+
+.top-navbar .navbar-nav .nav-item .nav-link {
+  /* padding-bottom: 1.1rem;
+  padding-top: 1.1rem; */
+
+  padding-left: .95rem;
+  padding-right: .95rem;
 }
 .nav-divider {
     margin: 0.8rem;
@@ -978,3 +996,56 @@ ul.list-unstyled > li {
 .text-lg {
   font-size: 2.625rem;
 }
+
+.top-navbar > .navbar-nav > .nav-item.dropdown > a > .badge {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 2px 5px;
+
+  font-size: .75rem;
+  border-radius: .625rem;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: nowrap !important;
+  position: relative;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.search-form .search-box {
+    /* border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; */
+    margin-right: 0px !important;
+    height: 36px;
+    padding-right: 44px;
+}
+
+.search-form .search-button {
+  border-radius: .25rem;
+  padding: 0px;
+  border-left: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  
+  
+  right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  height: 36px;
+  color: white;
+  background-color: lightgrey;
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid #ced4da;
+
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+}
+
+.search-form .search-button:focus {
+  outline: none;
+}
+
