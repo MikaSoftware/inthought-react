@@ -1049,3 +1049,15 @@ ul.list-unstyled > li {
   outline: none;
 }
 
+button svg,
+button i {
+  margin-right: 8px;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.color-primary {
+  color: #007bff;
+}

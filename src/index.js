@@ -58,6 +58,7 @@ import Step5 from './components/Wizards/Steps/Step5';
 import Panel from './components/Wizards/Panels/Panel';
 import GoogleMaps from './components/GoogleMaps';
 import Charting from './components/Charting';
+import FileUpload from './components/Pages/FileUpload';
 
 const routing = (
   <Router>
@@ -91,6 +92,7 @@ const routing = (
         <Route path="/ListPage" component={ListPage} />
         <Route path="/DetailsPage1" component={DetailsPage1} />
         <Route path="/DetailsPage2" component={DetailsPage2} />
+        <Route path="/FileUpload" component={FileUpload} />
         
         <Route path="/CommentsPage" component={CommentsPage} />
         <Route path="/SearchPage" component={SearchPage} />

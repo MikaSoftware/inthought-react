@@ -12,9 +12,6 @@ class SideBarCollapse extends React.Component {
                     <Link to="#" className="nav-link d-lg-block d-xl-block">
                         <i className="fas fa-bars"></i>
                     </Link>
-                    <Link to="#" className="nav-link sidebar-toggle d-md-none">
-                        <i className="fas fa-bars"></i>
-                    </Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="#">
@@ -144,6 +141,9 @@ class SideBarCollapse extends React.Component {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/Invoice">Invoice</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/FileUpload">File Upload</NavLink>
                         </li>
                     </ul>
                 </li>
