@@ -19,7 +19,7 @@ class FileUpload extends React.Component {
                     </button>
                 </div>
             </div>
-            <div className="col-sm-8 mx-auto mt-4 pt-4">
+            <div className="col-md-8 col-sm-12 col-xs-12 mx-auto mt-4 pt-4">
                 <div className="table-responsive">
                     <table className="table table-striped">
                         <thead>
