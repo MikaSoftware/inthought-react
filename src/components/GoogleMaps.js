@@ -48,23 +48,27 @@ class GoogleMaps extends React.Component {
         }
         render() {
             return (
-                <main id="main" role="main">
-                    <h1>Google Maps</h1>
-                    <div className="col-sm-12 mx-auto mt-4 pt-3 mb-4 pb-2">
-                        <div style={{ height: '100vh', width: '100%' }}>
-                            <GoogleMapReact
-                            bootstrapURLKeys={{ key: "AIzaSyA6xeoO-9QgnzyB91h5XOWJ-l79eX3ULxU" }}
-                            defaultCenter={this.props.center}
-                            defaultZoom={this.props.zoom}
-                            options={this.getMapOptions}
-                            marker={{}}
-                            >
-                            </GoogleMapReact>
-                        </div>
+                <div className="container-fluid">
+                    <div className="d-flex align-items-stretch">
+                        <main id="main" role="main">
+                            <h1>Google Maps</h1>
+                            <div className="col-sm-12 mx-auto mt-4 pt-3 mb-4 pb-2">
+                                <div style={{ height: '100vh', width: '100%' }}>
+                                    <GoogleMapReact
+                                    bootstrapURLKeys={{ key: "AIzaSyA6xeoO-9QgnzyB91h5XOWJ-l79eX3ULxU" }}
+                                    defaultCenter={this.props.center}
+                                    defaultZoom={this.props.zoom}
+                                    options={this.getMapOptions}
+                                    marker={{}}
+                                    >
+                                    </GoogleMapReact>
+                                </div>
+                            </div>
+                            <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
+                                    className="fas fa-angle-up fa-2x"></i></Link>
+                        </main>
                     </div>
-                    <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
-                            className="fas fa-angle-up fa-2x"></i></Link>
-                </main>
+                </div>
             )
         }
 }

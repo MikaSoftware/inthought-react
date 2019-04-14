@@ -316,7 +316,9 @@ class Charting extends React.Component {
         }]
     }    
     return (
-        <main id="main" role="main">
+        <div className="container-fluid">
+            <div className="d-flex align-items-stretch">
+                <main id="main" role="main">
             <h1 className="border-0">Charting</h1>
             <div className="container-fluid">
                 <div className="row">
@@ -413,7 +415,8 @@ class Charting extends React.Component {
                 </div>
             </div>
         </main>
-
+            </div>
+        </div>
     )
   }
 }
