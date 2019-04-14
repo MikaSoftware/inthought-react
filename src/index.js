@@ -15,8 +15,6 @@ import {
 
 
 import App from './components/app'
-import Users from './components/users'
-import Contact from './components/contact'
 
 import SideBarCollapse from './components/SideBarCollapse'
 
@@ -67,8 +65,6 @@ const routing = (
 
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
 
         <Route path="/LoginPage" component={LoginPage} />
         <Route path="/ResetPage" component={ResetPage} />

@@ -4,10 +4,10 @@ import { Link} from "react-router-dom";
 class Dashboard extends React.Component {
   render() {
     return (
-        <div className="container">
+        <div className="container-fluid">
+            <div className="d-flex align-items-stretch">
                 <main id="main">
                     <h1>Dashboard</h1>
-
                     <section className="row text-center placeholders">
                         <div className="col-sm-3 placeholder">
                             <div className="rounded-circle mx-auto mt-4 mb-4 circle-200 bg-pink">
@@ -61,8 +61,8 @@ class Dashboard extends React.Component {
 
                     <Link id="return-to-top" to="#" className="btn-primary btn-lg back-to-top" title="Back to top"><i
                             className="fas fa-angle-up fa-2x"></i></Link>
-
                 </main>
+            </div>
         </div>
     )
   }

@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 class ListPage extends React.Component {
   render() {
     return (
-        <main id="main" role="main">
+        <div className="container-fluid">
+            <div className="d-flex align-items-stretch">
+                <main id="main" role="main">
             <h1>Clients List</h1>
             <div className="col-sm-12 mx-auto mt-4 pt-3 mb-4 pb-2">
                 <div className="alert bg-danger text-white alert-dismissible fade show" role="alert">
@@ -85,6 +87,8 @@ class ListPage extends React.Component {
             <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
                     className="fas fa-angle-up fa-2x"></i></Link>
         </main>
+            </div>
+        </div>
     )
   }
 }
