@@ -130,17 +130,22 @@ a.plain-link{
     transition: all 0.3s;
     margin-right: -250px;
 }
+
 #sidebar.active {
     margin-right: 0 !important;
 }
 .active #main {
-    width: calc(100% - 250px) !important;
+    /* width: calc(100% - 250px) !important; */
 }
 #sidebar a{
     color: #ffffff;
 }
 #sidebar a [class*='fa-'] {
     margin-right: 0.45rem;
+}
+
+#sidebar ul > li:last-child {
+  margin-bottom: 45px !important;
 }
 /* Placeholders */
 .placeholders {
@@ -157,7 +162,7 @@ a.plain-link{
 }
 
 .navbar-nav {
-  margin-right: 18px;
+  /* margin-right: 18px; */
 }
 
 .navbar-brand {
@@ -165,8 +170,11 @@ a.plain-link{
 }
 
 .navbar-toggler {
-    padding: .45rem 1rem !important;
-    font-size: 2rem !important;
+    /* padding: .45rem 1rem !important; */
+    /* font-size: 2rem !important; */
+    padding: 8px 11px !important;
+    font-size: 24px !important;
+
 }
 .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,.95) !important;
@@ -1048,11 +1056,11 @@ ul.list-unstyled > li {
 .search-form .search-button:focus {
   outline: none;
 }
-
+/* 
 button svg,
 button i {
   margin-right: 8px;
-}
+} */
 
 .flex-space-around {
   justify-content: space-around;
@@ -1060,4 +1068,29 @@ button i {
 
 .color-primary {
   color: #007bff;
+}
+
+
+/*  */
+
+@media only screen and (max-width: 666px) {
+  /* For desktop: */
+  #sidebar {
+    width: 100%;
+    margin-right: -100%;
+    padding-top: 110px;
+  }
+
+  header > ul.navbar-nav:nth-child(3) {
+    width: 100%;
+    justify-content:space-between;
+  }
+
+  header > ul.navbar-nav:nth-child(2) {
+    margin-right: 0 !important;
+  }
+
+  main#main {
+    padding-top: 130px;
+  }
 }

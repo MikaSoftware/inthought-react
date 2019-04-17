@@ -9,11 +9,6 @@ class SideBarCollapse extends React.Component {
             <Link className="navbar-brand" to="#">Over55</Link>
             <ul className="navbar-nav mr-auto flex-row">
                 <li className="nav-item">
-                    <Link to="#" className="nav-link d-lg-block d-xl-block">
-                        <i className="fas fa-bars"></i>
-                    </Link>
-                </li>
-                <li className="nav-item">
                     <Link className="nav-link" to="#">
                         <i className="far fa-user"></i>
                     </Link>
@@ -22,16 +17,6 @@ class SideBarCollapse extends React.Component {
                     <Link title="Lock screen" className="nav-link" to="#">
                         <i className="fas fa-lock"></i>
                     </Link>
-                </li>
-            </ul>
-            <ul className="navbar-nav flex-row">
-                <li className="nav-item">
-                    <form className="form-inline search-form my-2 my-lg-0">
-                        <input className="form-control search-box mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="nav-link search-button" type="button">
-                            <i className="fas fa-search"></i>
-                        </button>
-                    </form>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="#">
@@ -45,9 +30,23 @@ class SideBarCollapse extends React.Component {
                     </Link>
                 </li>
             </ul>
-            <button className="navbar-toggler" type="button" id="sidebarCollapse">
-                <i className="fa fa-bars"></i>
-            </button>
+            <ul className="navbar-nav flex-row">
+                <li className="nav-item">
+                    <form className="form-inline search-form ml-0 my-2 my-lg-0">
+                        <input className="form-control search-box mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="nav-link search-button" type="button">
+                            <i className="fas fa-search"></i>
+                        </button>
+                    </form>
+                </li>
+                <li className="nav-item">
+                <button className="navbar-toggler" type="button" id="sidebarCollapse">
+                    <i className="fa fa-bars"></i>
+                </button>
+                </li>
+                
+            </ul>
+            
         </header>
         <nav id="sidebar">
             <p className="text-center text-light mt-3 mb-2">Hi, Rodolfo</p>
