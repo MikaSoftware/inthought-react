@@ -144,7 +144,7 @@ a.plain-link{
     margin-right: 0.45rem;
 }
 
-#sidebar ul > li:last-child {
+#sidebar div > div > ul > li:last-child {
   margin-bottom: 45px !important;
 }
 /* Placeholders */
