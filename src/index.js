@@ -13,6 +13,7 @@ import {
   Switch,
 } from 'react-router-dom'
 
+import ScrollUpButton from "react-scroll-up-button";
 
 import App from './components/app'
 
@@ -109,6 +110,7 @@ const routing = (
 
         <Route component={NotFound404} />
       </Switch>
+      <ScrollUpButton />
     </div>
   </Router>
 )

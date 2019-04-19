@@ -78,8 +78,6 @@ class Step1 extends React.Component {
                             </div>
                         </form>
                     </div>
-                    <Link id="return-to-top" to="#btn-primary btn-lg back-to-top" role="button" title="Back to top"><i
-                            className="fas fa-angle-up fa-2x"></i></Link>
                 </main>
             </div>
         </div>

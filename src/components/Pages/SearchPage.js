@@ -2,6 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 class SearchPage extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            advanced_search_active: false
+        }
+        this.advancedSearchPanelToggle = this.advancedSearchPanelToggle.bind(this);
+    }
+    advancedSearchPanelToggle() {
+        this.setState({
+            advanced_search_active: !this.state.advanced_search_active
+        })
+    }
   render() {
     return (
         <div className="container-fluid">
@@ -37,15 +49,27 @@ class SearchPage extends React.Component {
 
                         <div className="col-md-12 text-center">
                             <h3 className="p-2">- or -</h3>
-                            <button id="advance_search_btn" className="btn btn-primary btn-lg" type="button" data-toggle="button">
+                            <button id="advance_search_btn" 
+                                className="btn btn-primary btn-lg" 
+                                type="button" 
+                                data-toggle="button"
+                                style={{ display: this.state.advanced_search_active ? "none" : "inline-block" }}
+                                onClick = { this.advancedSearchPanelToggle }>
                                 Advanced Search
                             </button>
-                            <button id="advance_search_btn_x" className="btn btn-dark btn-lg" type="button" data-toggle="button"><i
-                                    className="fas fa-times"></i> Advanced Search
+                            <button id="advance_search_btn_x" 
+                                className="btn btn-dark btn-lg" 
+                                type="button" 
+                                data-toggle="button"
+                                style={{ display: this.state.advanced_search_active ? "inline-block" : "none" }}
+                                onClick = { this.advancedSearchPanelToggle }>
+                                <i className="fas fa-times"></i> Advanced Search
                             </button>
                         </div>
                     </div>
-                    <div id="adv-search" className="col-sm-5 mx-auto border-top mt-4">
+                    <div id="adv-search" 
+                        className="col-sm-5 mx-auto border-top mt-4" 
+                        style={{ display: this.state.advanced_search_active ? "block" : "none" }}>
                         <p className="my-4"><strong>Please fill in atleast one field and hit search</strong></p>
 
                         <form id="advanced-searchForm" method="get" className="needs-validation" action="" noValidate>
@@ -126,10 +150,6 @@ class SearchPage extends React.Component {
                             </div>
                         </form>
                     </div>
-
-                    <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
-                            className="fas fa-angle-up fa-2x"></i></Link>
-
                 </main>
             </div>
         </div>
