@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 class Table1 extends React.Component {
   render() {
     return (
@@ -104,8 +103,6 @@ class Table1 extends React.Component {
                             </table>
                         </div>
                     </div>
-                    <Link id="return-to-top" to="#" className="btn-primary btn-lg back-to-top" role="button" title="Back to top"><i
-                            className="fas fa-angle-up fa-2x"></i></Link>
                 </main>
             </div>
         </div>

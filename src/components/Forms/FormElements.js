@@ -1,8 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-
 import DatePicker from 'react-datepicker';
- 
 import 'react-datepicker/dist/react-datepicker.css';
 
 class Forms extends React.Component {
@@ -130,8 +127,6 @@ class Forms extends React.Component {
                                 </div>
                             </form>
                         </div>
-                        <Link id="return-to-top" to="#" role="button" title="Back to top"><i
-                                className="fas fa-angle-up fa-2x"></i></Link>
                     </main>
                 </div>
             </div>

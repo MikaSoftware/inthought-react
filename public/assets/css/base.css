@@ -27,7 +27,7 @@ body {
 .font-b6 { font-weight: 600!important; }
 @media only screen and (max-width: 767px) {
 body.active{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 }
 
@@ -661,7 +661,11 @@ table.custom-cell-w tr th{width:35% !important;}
 }
 
 .nav-item.dropdown-btn > a > .fa-caret-down {
-  display: none;
+  display: inline;
+}
+
+.nav-item.dropdown-btn > a.rotate-90 > .fa-caret-right{
+  transform: rotate(90deg);
 }
 
 .nav-item.dropdown-btn > a > .fa-caret-right {
@@ -1070,6 +1074,11 @@ button i {
   color: #007bff;
 }
 
+
+aside.ScrollUpButton__Container:focus {
+  outline: none;
+
+}
 
 /*  */
 

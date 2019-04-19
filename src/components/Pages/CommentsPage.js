@@ -76,10 +76,6 @@ class CommentsPage extends React.Component {
                             </div>
                         </div>
                     </div>
-
-                    <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
-                            className="fas fa-angle-up fa-2x"></i></Link>
-
                 </main>
             </div>
         </div>

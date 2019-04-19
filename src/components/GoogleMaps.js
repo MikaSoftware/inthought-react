@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import GoogleMapReact from 'google-map-react';
-// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class GoogleMaps extends React.Component {
         static defaultProps = {
@@ -64,8 +62,6 @@ class GoogleMaps extends React.Component {
                                     </GoogleMapReact>
                                 </div>
                             </div>
-                            <Link id="return-to-top" to="#" className="btn-info btn-lg back-to-top" role="button" title="Back to top"><i
-                                    className="fas fa-angle-up fa-2x"></i></Link>
                         </main>
                     </div>
                 </div>
