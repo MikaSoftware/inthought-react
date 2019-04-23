@@ -1080,6 +1080,14 @@ aside.ScrollUpButton__Container:focus {
 
 }
 
+.sideMenuTouchGlass {
+    width: calc(100vw - 250px);
+    height: 100vh;
+    position: absolute;
+    left: calc(250px - 100vw);
+}
+
+
 /*  */
 
 @media only screen and (max-width: 666px) {
