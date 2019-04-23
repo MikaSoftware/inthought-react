@@ -277,6 +277,9 @@ class SideBarCollapse extends React.Component {
             
         </header>
         <nav id="sidebar" className={ `${ this.state.active ? "active" : ""}` }>
+            <div className="sideMenuTouchGlass" 
+                onClick={ this.sideMenuToggle } 
+                style={{ display: this.state.active ? "block" : "none"}}></div>
             <Scrollbars>
                 <p className="text-center text-light mt-3 mb-2">Hi, Rodolfo</p>
                     <hr className="nav-divider" />
