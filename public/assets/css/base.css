@@ -1087,6 +1087,12 @@ aside.ScrollUpButton__Container:focus {
     left: calc(250px - 100vw);
 }
 
+.error-page-pane {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
 /*  */
 
