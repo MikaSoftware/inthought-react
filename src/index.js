@@ -58,6 +58,7 @@ import Panel from './components/Wizards/Panels/Panel';
 import GoogleMaps from './components/GoogleMaps';
 import Charting from './components/Charting';
 import FileUpload from './components/Pages/FileUpload';
+import Dropdown from './components/Forms/Dropdown';
 
 const routing = (
   <Router>
@@ -80,8 +81,10 @@ const routing = (
         <Route path="/Icons" component={Icons} />
         <Route path="/Buttons" component={Buttons} />
         <Route path="/Cards" component={Cards} />
+
         <Route path="/FormElements" component={FormElements} />
         <Route path="/FormValidations" component={FormValidations} />
+        <Route path="/Dropdown" component={Dropdown} />
 
         <Route path="/Table1" component={Table1} />
         <Route path="/Table2" component={Table2} />
