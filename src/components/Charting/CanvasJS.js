@@ -1,9 +1,9 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
-import CanvasJSReact from '../assets/canvasjs.react';
+import CanvasJSReact from '../../assets/canvasjs.react';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
-class Charting extends React.Component {
+class CanvasJS extends React.Component {
   render() {
     const options1 = {
         theme: "light2",
@@ -420,4 +420,4 @@ class Charting extends React.Component {
     )
   }
 }
-export default Charting
+export default CanvasJS

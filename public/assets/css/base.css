@@ -1100,6 +1100,10 @@ aside.ScrollUpButton__Container:focus {
   margin-top: 1rem !important;
 }
 
+.recharts-wrapper {
+  margin: 0 auto;
+
+}
 /*  */
 
 @media only screen and (max-width: 666px) {
