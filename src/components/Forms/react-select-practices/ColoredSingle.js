@@ -43,6 +43,8 @@ const colourStyles = {
 
 export default () => (
   <Select
+    className="react-select-single"
+    classNamePrefix="react-select-single"
     defaultValue={colourOptions[2]}
     label="Single select"
     options={colourOptions}

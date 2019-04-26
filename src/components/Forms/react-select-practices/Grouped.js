@@ -31,6 +31,8 @@ const formatGroupLabel = data => (
 
 export default () => (
   <Select
+  className="react-select-single"
+  classNamePrefix="react-select-single"
     defaultValue={colourOptions[1]}
     options={groupedOptions}
     formatGroupLabel={formatGroupLabel}

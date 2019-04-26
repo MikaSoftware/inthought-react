@@ -10,6 +10,8 @@ import { colourOptions } from './docs/data';
 export default function AnimatedMulti() {
   return (
     <Select
+      className="react-select-multi"
+      classNamePrefix="react-select-multi"
       closeMenuOnSelect={false}
       components={makeAnimated()}
       defaultValue={[colourOptions[4], colourOptions[5]]}

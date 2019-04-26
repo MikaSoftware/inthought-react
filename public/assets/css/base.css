@@ -1102,8 +1102,116 @@ aside.ScrollUpButton__Container:focus {
 
 .recharts-wrapper {
   margin: 0 auto;
-
 }
+
+/* React Select custom style */
+
+/* React select single */
+.react-select-single .react-select-single__control {
+    border-color: #007bff!important;
+}
+
+.react-select-single .react-select-single__control--is-focused {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(128,189,255,.5) !important;
+}
+
+.react-select-single .react-select-single__control > .react-select-single__indicators > span {
+  display: none;
+}
+
+.react-select-single .react-select-single__control > .react-select-single__indicators svg {
+  display: none !important;
+}
+
+.react-select-single .react-select-single__control > .react-select-single__indicators .react-select-single__dropdown-indicator {
+  display: none;
+}
+
+.react-select-single .react-select-single__control > .react-select-single__indicators .react-select-single__indicator {
+  display: none;
+}
+
+.react-select-single > .react-select-single__control > .react-select-single__indicators {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat center;
+  background-size: 58%;
+  margin-right: 7px;
+  margin-left: 7px;
+
+  width: 16px;
+}
+
+.react-select-single > .react-select-single__menu {
+  margin-top: 0px;
+  border:none;
+
+  border-left: 1px solid hsl(0,0%,80%);
+  border-right: 1px solid hsl(0,0%,80%);
+  border-bottom: 1px solid hsl(0,0%,80%);
+
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+
+
+/* React select multi */
+.react-select-multi .react-select-multi__control {
+  border-color: #007bff!important;
+}
+
+.react-select-multi .react-select-multi__control--is-focused {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(128,189,255,.5) !important;
+}
+
+.react-select-multi .react-select-multi__control > .react-select-multi__indicators > span {
+  /* display: none; */
+  /* background-color: black; */
+}
+
+.react-select-multi .react-select-multi__control > .react-select-multi__indicators svg {
+  /* display: none !important; */
+  color: black;
+}
+
+.react-select-multi .react-select-multi__control > .react-select-multi__indicators .react-select-multi__dropdown-indicator {
+  /* display: none; */
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat center;
+  background-size: 58%;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  width: 16px;
+}
+
+.react-select-multi .react-select-multi__control > .react-select-multi__indicators .react-select-multi__clear-indicator {
+  /* display: none; */
+}
+
+.react-select-multi > .react-select-multi__control > .react-select-multi__indicators {
+  /* background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat center;
+  background-size: 54%;
+  margin-right: 7px;
+  margin-left: 7px;
+
+  width: 16px; */
+}
+
+.react-select-multi > .react-select-multi__menu {
+  margin-top: 0px;
+  border:none;
+
+  border-left: 1px solid hsl(0,0%,80%);
+  border-right: 1px solid hsl(0,0%,80%);
+  border-bottom: 1px solid hsl(0,0%,80%);
+
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+
+
 /*  */
 
 @media only screen and (max-width: 666px) {

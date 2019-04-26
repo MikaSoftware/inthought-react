@@ -54,13 +54,13 @@ export default class FixedOptions extends Component<*, State> {
   render () {
     return (
       <Select
+        className="react-select-multi"
+        classNamePrefix="react-select-multi"
         value={this.state.value}
         isMulti
         styles={styles}
         isClearable={this.state.value.some(v => !v.isFixed)}
         name="colors"
-        className="basic-multi-select"
-        classNamePrefix="select"
         onChange={this.onChange}
         options={colourOptions}
       />

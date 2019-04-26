@@ -19,6 +19,8 @@ export default class CreatableSingle extends Component<*, State> {
   render() {
     return (
       <CreatableSelect
+        className="react-select-multi"
+        classNamePrefix="react-select-multi"
         isClearable
         onChange={this.handleChange}
         onInputChange={this.handleInputChange}

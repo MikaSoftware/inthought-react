@@ -31,6 +31,8 @@ export default class WithCallbacks extends Component<*, State> {
       <div>
         <pre>inputValue: "{this.state.inputValue}"</pre>
         <AsyncSelect
+          className="react-select-single"
+          classNamePrefix="react-select-single"        
           cacheOptions
           loadOptions={loadOptions}
           defaultOptions
