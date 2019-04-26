@@ -13,11 +13,11 @@ class FileUpload extends React.Component {
                         <div className="row flex-space-around">
                             <button className="btn btn-primary btn-lg mt-4 float-right pl-4 pr-4" type="submit">
                                 <i className="fas fa-cloud-upload-alt"></i>
-                                UPLOAD
+                                &nbsp;&nbsp;UPLOAD
                             </button>
                             <button className="btn btn-secondary btn-lg mt-4 float-right pl-4 pr-4" type="submit">
-                            <i className="fas fa-save"></i>
-                                SAVE
+                                <i className="fas fa-save"></i>
+                                &nbsp;&nbsp;SAVE
                             </button>
                         </div>
                     </div>

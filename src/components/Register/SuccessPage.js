@@ -9,7 +9,7 @@ class SuccessPage extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 text-center">
-                            <img className="img-fluid" src="../assets/img/over55-logo-600px.png" alt="Logo" width="180px" />
+                            <img className="img-fluid" src="../assets/img/black-logo.png" alt="Logo" width="180px" />
                         </div>
                     </div>
                     <div className="row">
