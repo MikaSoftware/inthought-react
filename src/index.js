@@ -60,6 +60,7 @@ import CanvasJS from './components/Charting/CanvasJS';
 import FileUpload from './components/Pages/FileUpload';
 import Dropdown from './components/Forms/Dropdown';
 import Recharts from './components/Charting/Recharts';
+import CountryProvince from './components/Forms/CountryProvince';
 
 const routing = (
   <Router>
@@ -86,6 +87,7 @@ const routing = (
         <Route path="/FormElements" component={FormElements} />
         <Route path="/FormValidations" component={FormValidations} />
         <Route path="/Dropdown" component={Dropdown} />
+        <Route path="/CountryProvince" component={CountryProvince} />
 
         <Route path="/Table1" component={Table1} />
         <Route path="/Table2" component={Table2} />
