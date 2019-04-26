@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+
+import { FacebookLoginButton, GoogleLoginButton } from "react-social-login-buttons";
+
 class LoginPage extends React.Component {
   render() {
     return (
@@ -50,7 +53,10 @@ class LoginPage extends React.Component {
                                 <h5 className="text-center mt-3 mb-3"><Link to="#" className="text-primary plain-link">Forgot
                                     Password?</Link></h5>
 
+                                <FacebookLoginButton className="social-buttons" onClick={() => alert("Hello")} />
+                                <GoogleLoginButton className="social-buttons" onClick={() => alert("Hello")} />
                             </form>
+
                         </div>
                     </div>
                 </main>
