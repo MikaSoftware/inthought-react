@@ -1087,11 +1087,17 @@ aside.ScrollUpButton__Container:focus {
     left: calc(250px - 100vw);
 }
 
-.error-page-pane {
-    display: flex;
+.error-page {
     text-align: center;
-    align-items: center;
-    justify-content: center;
+}
+
+.error-page h4 {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.error-page p.submit {
+  margin-top: 1rem !important;
 }
 
 /*  */
@@ -1116,4 +1122,16 @@ aside.ScrollUpButton__Container:focus {
   main#main {
     padding-top: 130px;
   }
+}
+
+@media only screen and (max-width: 666px) {
+    #sidebar {
+      width: 100%;
+      margin-right: -100%;
+      padding-top: 160px;
+    }
+
+    main#main {
+      padding-top: 180px;
+    }
 }

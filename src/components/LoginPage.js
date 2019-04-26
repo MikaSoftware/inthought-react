@@ -7,7 +7,7 @@ class LoginPage extends React.Component {
             <div className="d-flex align-items-stretch">
                 <main id="main" role="main">
                     <div className="row" id="logout-message">
-                        <div className="col-md-6 mx-auto alert alert-success alert-dismissible text-center fade show" role="alert">
+                        <div className="col-sm-8 col-lg-6 col-xl-4 mx-auto alert alert-success alert-dismissible text-center fade show" role="alert">
                             <strong>You have successfully logged out.</strong>
                             <button type="button" className="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
@@ -19,7 +19,7 @@ class LoginPage extends React.Component {
                         <img className="img-fluid" src="./assets/img/over55-logo-600px.png" alt="Logo" width="180px" /></div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 mx-auto">
+                        <div className="col-sm-8 col-lg-6 col-xl-4 mx-auto">
                             <h2 className="text-center mb-3">Sign In</h2>
                             <form id="sign-in" className="form-signin needs-validation" method="post" action="" noValidate>
 
