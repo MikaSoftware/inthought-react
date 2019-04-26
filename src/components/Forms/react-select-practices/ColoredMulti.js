@@ -44,6 +44,8 @@ const colourStyles = {
 
 export default () => (
   <Select
+    className="react-select-multi"
+    classNamePrefix="react-select-multi"  
     closeMenuOnSelect={false}
     defaultValue={[colourOptions[0], colourOptions[1]]}
     isMulti

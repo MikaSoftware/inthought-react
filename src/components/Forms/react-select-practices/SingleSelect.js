@@ -43,8 +43,8 @@ export default class SingleSelect extends Component<*, State> {
     return (
       <Fragment>
         <Select
-          className="basic-single"
-          classNamePrefix="select"
+          className="react-select-single"
+          classNamePrefix="react-select-single"
           defaultValue={colourOptions[0]}
           isDisabled={isDisabled}
           isLoading={isLoading}

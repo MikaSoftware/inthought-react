@@ -19,7 +19,10 @@ const promiseOptions = inputValue =>
 export default class WithPromises extends Component {
   render() {
     return (
-      <AsyncSelect cacheOptions defaultOptions loadOptions={promiseOptions} />
+      <AsyncSelect 
+        className="react-select-single"
+        classNamePrefix="react-select-single"
+      cacheOptions defaultOptions loadOptions={promiseOptions} />
     );
   }
 }

@@ -30,6 +30,8 @@ export default class AsyncMulti extends Component<*, State> {
   render() {
     return (
       <AsyncSelect
+        className="react-select-multi"
+        classNamePrefix="react-select-multi"
         isMulti
         cacheOptions
         defaultOptions
