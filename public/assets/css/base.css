@@ -1211,6 +1211,11 @@ aside.ScrollUpButton__Container:focus {
   box-shadow: none;
 }
 
+.social-buttons {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  border-radius: .3rem !important;
+}
 
 /*  */
 
