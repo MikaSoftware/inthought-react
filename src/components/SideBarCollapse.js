@@ -86,7 +86,11 @@ const menuData = [
             {
                 title: "Dropdown",
                 url: "/Dropdown"
-            },         
+            },   
+            {
+                title: "Country Province Selector",
+                url: "/CountryProvince"
+            },      
         ]
     },
     {
