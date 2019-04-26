@@ -25,14 +25,14 @@ class Table2 extends React.Component {
                                     <td>Susan</td>
                                     <td>Fairley</td>
                                     <td>(519)438-1111</td>
-                                    <td>susan@over55london.ca</td>
+                                    <td>susan@Inthoughtlondon.ca</td>
                                 </tr>
                                 <tr>
                                     <td>1,002</td>
                                     <td>Rodolfo</td>
                                     <td>Martinez</td>
                                     <td>(519)521-3135</td>
-                                    <td>rodolfo@over55london.ca</td>
+                                    <td>rodolfo@Inthoughtlondon.ca</td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>

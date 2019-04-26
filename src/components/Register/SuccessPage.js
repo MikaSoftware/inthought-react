@@ -14,7 +14,7 @@ class SuccessPage extends React.Component {
                     </div>
                     <div className="row">
                             <div className="col-sm-6 mx-auto">
-                                <h2 className="form-signin-heading text-center mb-3">Welcome to the Over55 App!</h2>
+                                <h2 className="form-signin-heading text-center mb-3">Welcome to the Inthought App!</h2>
                             </div>
                         </div>
                     </div>
