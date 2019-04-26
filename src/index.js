@@ -56,8 +56,10 @@ import Step4 from './components/Wizards/Steps/Step4';
 import Step5 from './components/Wizards/Steps/Step5';
 import Panel from './components/Wizards/Panels/Panel';
 import GoogleMaps from './components/GoogleMaps';
-import Charting from './components/Charting';
+import CanvasJS from './components/Charting/CanvasJS';
 import FileUpload from './components/Pages/FileUpload';
+import Dropdown from './components/Forms/Dropdown';
+import Recharts from './components/Charting/Recharts';
 
 const routing = (
   <Router>
@@ -80,8 +82,10 @@ const routing = (
         <Route path="/Icons" component={Icons} />
         <Route path="/Buttons" component={Buttons} />
         <Route path="/Cards" component={Cards} />
+
         <Route path="/FormElements" component={FormElements} />
         <Route path="/FormValidations" component={FormValidations} />
+        <Route path="/Dropdown" component={Dropdown} />
 
         <Route path="/Table1" component={Table1} />
         <Route path="/Table2" component={Table2} />
@@ -106,7 +110,8 @@ const routing = (
 
         <Route path="/GoogleMaps" component={GoogleMaps} />
 
-        <Route path="/Charting" component={Charting} />
+        <Route path="/CanvasJS" component={CanvasJS} />
+        <Route path="/Recharts" component={Recharts} />
 
         <Route component={NotFound404} />
       </Switch>

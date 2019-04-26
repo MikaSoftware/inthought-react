@@ -82,7 +82,11 @@ const menuData = [
             {
                 title: "Form Validations",
                 url: "/FormValidations"
-            },            
+            },   
+            {
+                title: "Dropdown",
+                url: "/Dropdown"
+            },         
         ]
     },
     {
@@ -167,7 +171,17 @@ const menuData = [
     },
     {
         title: "Charting",
-        url: "/Charting"
+        url: "",
+        children:[
+            {
+                title: "CanvasJS",
+                url: "/CanvasJS",
+            },
+            {
+                title: "Recharts",
+                url: "/Recharts",
+            }
+        ]
     }
   ]
 
