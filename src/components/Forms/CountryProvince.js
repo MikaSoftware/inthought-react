@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // note that you can also export the source data via CountryRegionData. It's in a deliberately concise format to 
 // keep file size down
-import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
+import { CountryDropdown, RegionDropdown } from 'react-country-region-selector';
 
 class CountryProvince extends Component {
     constructor (props) {
@@ -115,9 +115,8 @@ class CountryProvince extends Component {
                                             value={country}
                                             id="my-country-field-id"
                                             name="my-country-field"
-                                            classes="my-custom-class second-class"
-                                            onChange={(val) => this.selectCountry(val)} 
-                                            classes = "custom-select form-control-lg border-primary"/>
+                                            classes="my-custom-class second-class custom-select form-control-lg border-primary"
+                                            onChange={(val) => this.selectCountry(val)} />
                                     </div>
                                     <div className="col-sm-6">
                                         <RegionDropdown
@@ -125,9 +124,8 @@ class CountryProvince extends Component {
                                             value={region}
                                             name="my-region-field-name"
                                             id="my-region-field-id"
-                                            classes="another-custom-class"
-                                            onChange={(val) => this.selectRegion(val)} 
-                                            classes = "custom-select form-control-lg border-primary"/>
+                                            classes="another-custom-class custom-select form-control-lg border-primary"
+                                            onChange={(val) => this.selectRegion(val)} />
                                     </div>
                                 </div>
                             <hr />

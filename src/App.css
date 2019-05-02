@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes FadeAnim {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
