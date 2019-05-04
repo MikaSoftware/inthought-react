@@ -7,6 +7,8 @@ import ReactDOM from 'react-dom'
 // import './assets/css/fullcalendar.min.css'
 // import './assets/css/fullcalendar.print.min.css'
 
+import './index.css';
+
 import {
   Route,
   BrowserRouter as Router,
@@ -62,7 +64,11 @@ import Dropdown from './components/Forms/Dropdown';
 import Recharts from './components/Charting/Recharts';
 import CountryProvince from './components/Forms/CountryProvince';
 
+import 'pace-js'
+import 'pace-js/themes/yellow/pace-theme-minimal.css'
+
 const routing = (
+  <div className="App Fade">
   <Router>
     <div>
       <SideBarCollapse></SideBarCollapse>
@@ -120,6 +126,7 @@ const routing = (
       <ScrollUpButton />
     </div>
   </Router>
+  </div>
 )
 ReactDOM.render(routing, document.getElementById('root'))
 

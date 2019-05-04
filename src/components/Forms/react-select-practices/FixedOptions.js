@@ -45,6 +45,8 @@ export default class FixedOptions extends Component<*, State> {
       case 'clear':
         value = colourOptions.filter((v) => v.isFixed);
         break;
+      default:
+        break;
     }
 
     value = orderOptions(value);

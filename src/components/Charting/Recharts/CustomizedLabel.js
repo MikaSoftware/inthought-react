@@ -1,11 +1,10 @@
 /* eslint-disable react/no-multi-comp */
 import React, { PureComponent } from 'react';
 import moment from 'moment'
-import timezone from 'moment-timezone'
 
 
 import {
-  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Label
 } from 'recharts';
 
 const data = [
