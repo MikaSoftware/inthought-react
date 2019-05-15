@@ -15,6 +15,7 @@
     "react-custom-scrollbars": "^4.2.1",
     "react-datepicker": "^2.3.0",
     "react-dom": "^16.8.5",
+    "react-modal": "^3.8.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-scroll-up-button": "^1.6.4",
