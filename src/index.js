@@ -34,6 +34,8 @@ import ServerError500 from './components/ServerError505';
 import Icons from './components/Icons';
 import Buttons from './components/Buttons';
 import Cards from './components/Cards';
+import Modal1 from './components/Modals/Modal1';
+import Modal2 from './components/Modals/Modal2';
 
 import FormElements from './components/Forms/FormElements';
 import FormValidations from './components/Forms/FormValidations';
@@ -89,6 +91,8 @@ const routing = (
         <Route path="/Icons" component={Icons} />
         <Route path="/Buttons" component={Buttons} />
         <Route path="/Cards" component={Cards} />
+        <Route path="/Modal1" component={Modal1} />
+        <Route path="/Modal2" component={Modal2} />
 
         <Route path="/FormElements" component={FormElements} />
         <Route path="/FormValidations" component={FormValidations} />

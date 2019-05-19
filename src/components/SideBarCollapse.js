@@ -58,6 +58,20 @@ const menuData = [
         url: "/Cards"
     },
     {
+        title: "Modals",
+        url: "",
+        children:[
+            {
+                title: "Modal1",
+                url: "/Modal1"
+            },
+            {
+                title: "Modal2",
+                url: "/Modal2"
+            }
+        ]
+    },
+    {
         title: "Tables",
         url: "",
         children:[
