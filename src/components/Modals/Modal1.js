@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactModal from 'react-modal'
+import { Link} from "react-router-dom";
 import './Styles.css';
-
+ReactModal.setAppElement('#root');
 
 class Modal1 extends React.Component {
     constructor () {
@@ -63,27 +64,27 @@ class Modal1 extends React.Component {
                                     <th scope="row">1</th>
                                     <td>Product 1</td>
                                     <td>100$</td>
-                                    <td><a><i class="fas fa-times"></i></a></td>
+                                    <td><Link to="#"><i className="fas fa-times"></i></Link></td>
                                     </tr>
                                     <tr>
                                     <th scope="row">2</th>
                                     <td>Product 2</td>
                                     <td>100$</td>
-                                    <td><a><i class="fas fa-times"></i></a></td>
+                                    <td><Link to="#"><i className="fas fa-times"></i></Link></td>
                                     </tr>
                                     <tr>
                                     <th scope="row">3</th>
                                     <td>Product 3</td>
                                     <td>100$</td>
-                                    <td><a><i class="fas fa-times"></i></a></td>
+                                    <td><Link to="#"><i className="fas fa-times"></i></Link></td>
                                     </tr>
                                     <tr>
                                     <th scope="row">4</th>
                                     <td>Product 4</td>
                                     <td>100$</td>
-                                    <td><a><i class="fas fa-times"></i></a></td>
+                                    <td><Link to="#"><i className="fas fa-times"></i></Link></td>
                                     </tr>
-                                    <tr class="total">
+                                    <tr className="total">
                                     <th scope="row">5</th>
                                     <td>Total</td>
                                     <td>400$</td>

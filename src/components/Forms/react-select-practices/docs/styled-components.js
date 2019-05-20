@@ -46,8 +46,8 @@ export const Note = ({ Tag = 'div', ...props }: { Tag?: string }) => (
   />
 );
 
-export const H1 = (props: any) => <h1 css={{ marginTop: 0 }} {...props} />;
-export const H2 = (props: any) => <h2 css={{ marginTop: '2em' }} {...props} />;
+export const H1 = (props: any) => <h1 css={{ marginTop: 0 }} {...props} dangerouslySetInnerHTML={{ __html: 'foo' }}/>;
+export const H2 = (props: any) => <h2 css={{ marginTop: '2em' }} {...props} dangerouslySetInnerHTML={{ __html: 'foo' }}/>;
 
 // ==============================
 // Code
