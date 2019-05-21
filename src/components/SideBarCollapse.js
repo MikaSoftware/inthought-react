@@ -38,6 +38,24 @@ const menuData = [
         url: "/Widgets"
     },
     {
+        title: "Status Pages",
+        url: "",
+        children:[
+            {
+                title: "Bad Request Error 400",
+                url: "/BadRequest400"
+            },
+            {
+                title: "Server Error 500",
+                url: "/InternalServerError500"
+            }
+        ]
+    },
+    {
+        title: "Please Wait",
+        url: "/PleaseWait"
+    },
+    {
         title: "Not Found 404",
         url: "/NotFound404"
     },
