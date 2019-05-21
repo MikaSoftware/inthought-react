@@ -29,6 +29,11 @@ import RegisterPage from './components/Register/RegisterPage';
 
 import Dashboard from './components/Dashboard';
 import Widgets from './components/Widgets';
+
+import BadRequest400 from './components/StatusPages/BadRequest400';
+import InternalServerError500 from './components/StatusPages/InternalServerError500';
+import PleaseWait from './components/PleaseWait/PleaseWait';
+
 import NotFound404 from './components/NotFound404'
 import ServerError500 from './components/ServerError505';
 import Icons from './components/Icons';
@@ -86,8 +91,14 @@ const routing = (
         <Route path="/TopMenu" component={TopMenu} />
         <Route path="/Dashboard" component={Dashboard} />
         <Route path="/Widgets" component={Widgets} />
+
+        <Route path="/BadRequest400" component={BadRequest400} />
+        <Route path="/InternalServerError500" component={InternalServerError500} />
+        <Route path="/PleaseWait" component={PleaseWait} />
+
         <Route path="/NotFound404" component={NotFound404} />
         <Route path="/ServerError500" component={ServerError500} />
+
         <Route path="/Icons" component={Icons} />
         <Route path="/Buttons" component={Buttons} />
         <Route path="/Cards" component={Cards} />

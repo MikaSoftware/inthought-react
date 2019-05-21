@@ -1,0 +1,23 @@
+.loader .loader-text {
+    margin-right: 11rem;
+    margin-bottom: 3rem !important;
+}
+.loader .loader-text::after{
+    position: absolute;
+    content: "Please wait";
+    animation: loading-text 3s linear infinite;
+}
+@keyframes loading-text{
+    0% {
+        content: "Please wait";
+    }
+    25% {
+        content: "Please wait.";
+    }
+    50% {
+        content: "Please wait..";
+    }
+    75% {
+        content: "Please wait...";
+    }
+}
