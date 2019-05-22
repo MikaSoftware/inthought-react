@@ -42,6 +42,10 @@ const menuData = [
         url: "",
         children:[
             {
+                title: "Please Wait",
+                url: "/PleaseWait"
+            },
+            {
                 title: "Bad Request Error 400",
                 url: "/BadRequest400"
             },
@@ -50,10 +54,6 @@ const menuData = [
                 url: "/InternalServerError500"
             }
         ]
-    },
-    {
-        title: "Please Wait",
-        url: "/PleaseWait"
     },
     {
         title: "Not Found 404",
