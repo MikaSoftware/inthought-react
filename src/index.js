@@ -1,12 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-// import './index.css'
-// import './assets/css/base.css'
-// import './assets/css/custom.css'
-// import './assets/css/fullcalendar.min.css'
-// import './assets/css/fullcalendar.print.min.css'
-
 import './index.css';
 
 import {
