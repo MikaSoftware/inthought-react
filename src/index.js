@@ -41,6 +41,7 @@ import FormValidations from './components/Forms/FormValidations';
 
 import Table1 from './components/Tables/Table1';
 import Table2 from './components/Tables/Table2';
+import Table3 from './components/Tables/Table3';
 
 import ListPage from './components/ListPage';
 
@@ -106,6 +107,7 @@ const routing = (
 
         <Route path="/Table1" component={Table1} />
         <Route path="/Table2" component={Table2} />
+        <Route path="/Table3" component={Table3} />
         
         <Route path="/ListPage" component={ListPage} />
         <Route path="/DetailsPage1" component={DetailsPage1} />
