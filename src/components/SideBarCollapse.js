@@ -100,7 +100,11 @@ const menuData = [
             {
                 title: "Table 2",
                 url: "/Table2"
-            },            
+            },   
+            {
+                title: "Table 3",
+                url: "/Table3"
+            },          
         ]
     },
     {
