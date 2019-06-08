@@ -39,6 +39,8 @@ import Modal2 from './components/Modals/Modal2';
 import FormElements from './components/Forms/FormElements';
 import FormValidations from './components/Forms/FormValidations';
 
+import Dropzone from './components/Forms/Dropzone';
+
 import Table1 from './components/Tables/Table1';
 import Table2 from './components/Tables/Table2';
 import Table3 from './components/Tables/Table3';
@@ -102,6 +104,7 @@ const routing = (
 
         <Route path="/FormElements" component={FormElements} />
         <Route path="/FormValidations" component={FormValidations} />
+        <Route path="/Dropzone" component={Dropzone} />
         <Route path="/Dropdown" component={Dropdown} />
         <Route path="/CountryProvince" component={CountryProvince} />
 
