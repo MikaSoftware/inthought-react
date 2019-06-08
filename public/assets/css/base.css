@@ -627,6 +627,10 @@ body {
   .buttons-card .btn-group button {
       margin: 5px 0px;
   }
+
+ .buttons-group .btn {
+    margin: 5px;
+}
   
   .icon-group {
       margin: 40px 0px;

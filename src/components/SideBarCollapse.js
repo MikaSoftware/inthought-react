@@ -104,7 +104,11 @@ const menuData = [
             {
                 title: "Table 3",
                 url: "/Table3"
-            },          
+            }, 
+            {
+                title: "Filterable Table",
+                url: "/Filterable"
+            },         
         ]
     },
     {
