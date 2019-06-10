@@ -126,7 +126,11 @@ const menuData = [
             {
                 title: "Country Province Selector",
                 url: "/CountryProvince"
-            },      
+            },  
+            {
+                title: "Dropzone",
+                url: "/Dropzone"
+            }    
         ]
     },
     {
