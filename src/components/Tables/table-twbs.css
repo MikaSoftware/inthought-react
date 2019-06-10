@@ -84,7 +84,7 @@ select {
 
 .table th {
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
